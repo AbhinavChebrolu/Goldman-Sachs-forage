@@ -12,8 +12,7 @@ As a governance analyst it is part of your duties to assess the level of protect
 `What controls could be implemented to make cracking much harder for the hacker in the event of a password database leaking again?`
 
 Here is a sample data file containing hashes dumped together:
-
-https://github.com/ne3lakolkar/Goldman-Sachs-Crack-Leaked-Passsword-Database/blob/main/passwd_dump.txt
+https://github.com/AbhinavChebrolu/Goldman-Sachs-forage/blob/main/passwd_dump.txt
 
 After the conducted analysis it was determined that organization uses an outdated password hashing algorithm (MD5) which offers very little protection in the event of a password database leaking. It was also determined that the current password policy is not aligned with industry best practices allowing users to have short passwords (6 characters) and reuse usernames as part of passwords. 
 
